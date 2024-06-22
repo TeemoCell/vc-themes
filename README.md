@@ -38,7 +38,7 @@ All themes are provided with images & color, but you can easily customize your t
 METHOD 1: Editing the theme file
 
 * Step 1: Open the theme file using any text editor, notepad can be hard to read, [Visual Studio Code](https://code.visualstudio.com) or [Sublime Text](http://www.sublimetext.com) are good options!
-* Step 2: Find the ":root" part, this is where all color and images are defined, it may look like this: 
+* Step 2: Find the ":root" part, this is where all color and images are defined, it may look like this:
 
 ![this](https://i.imgur.com/Kwi75qZ.png))
 
@@ -51,14 +51,8 @@ METHOD 2: Using Gibbu's theme editor, this tool lets you edit Discord themes wit
 * [https://bdeditor.dev/themes](https://bdeditor.dev/themes)
 
 # 4. Themes list
-## Neutron 
-A simple but highly customizable theme, now sugar free!
 
-Download : https://betterdiscord.app/theme/Neutron
-
-![Neutron Demo](https://i.imgur.com/5YhoRtf.jpg)
-
-## Nocturnal 
+## Nocturnal
 For when default discord just isn't dark enough, a theme for those who live a night
 
 Download : https://betterdiscord.app/theme/Nocturnal
