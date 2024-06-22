@@ -1,7 +1,7 @@
-@import url("https://teemocell.github.io/vc-themes/core/custom-font.css");
-@import url("https://teemocell.github.io/vc-themes/core/settings-icons.css");
+@import url("http://localhost/vc-themes/core/custom-font.css");
+@import url("http://localhost/vc-themes/core/settings-icons.css");
 @import url("https://nyri4.github.io/Discolored/main.css");
-@import url("https://teemocell.github.io/vc-themes/core/hljs.css");
+@import url("http://localhost/vc-themes/core/hljs.css");
 
 :root {
     --backgroundColor01: #1e2731;
@@ -181,7 +181,8 @@
 
 #app-mount .link_d8bfb3 {
     position: relative;
-    overflow: hidden
+    overflow: hidden;
+    border-radius: 0px;
 }
 
 #app-mount .link_d8bfb3::after {
@@ -191,8 +192,6 @@
     bottom: 0;
     height: 2px;
     width: 100%;
-    background-color: var(--gradientColor01);
-    background-image: linear-gradient(-45deg, var(--gradientColor01), var(--gradientColor02)) !important;
     -webkit-transition: transform .2s ease;
     -ms-transition: transform .2s ease;
     -o-transition: transform .2s ease;
@@ -391,12 +390,6 @@
 
 #app-mount .embedFull_ad0b71 {
     background: var(--backgroundColor01) !important
-}
-
-#app-mount .anchor-1MIwyf,
-#app-mount .executedCommand_ec86aa .commandName_ec86aa,
-#app-mount .markup_d6076c a {
-    color: var(--gradientColor01) !important
 }
 
 #app-mount .lookLink-15mFoz.colorBrand-I6CyqQ {
@@ -651,7 +644,8 @@
 
 #app-mount .layout_e9f61e {
     position: relative;
-    overflow: hidden
+    overflow: hidden;
+    border-radius: 0px;
 }
 
 #app-mount .layout_e9f61e::after {
@@ -661,8 +655,6 @@
     bottom: 0;
     height: 2px;
     width: 100%;
-    background-color: var(--gradientColor01);
-    background-image: linear-gradient(-45deg, var(--gradientColor01), var(--gradientColor02)) !important;
     -webkit-transition: transform .2s ease;
     -ms-transition: transform .2s ease;
     -o-transition: transform .2s ease;
@@ -2078,8 +2070,10 @@
     padding: 0 16px;
 }
 
-.interactiveSelected_c91bad {
-    background-color: var(--backgroundColor01);
+#app-mount .userProfileOuterThemed_c69a7b.userPopoutOuter_c69a7b,
+.userProfileOuterThemed_c69a7b.biteSizeOuter_c69a7b,
+.userProfileOuterThemed_c69a7b.userProfileOuter_c69a7b .interactiveSelected_c91bad {
+    border-radius: 0px;
 }
 
 .interactive-1vLZ_I:focus-within,
@@ -2311,8 +2305,8 @@
     background: transparent;
 }
 
-.theme-dark .scrollableContainer_d0696b {
-    background: transparent;
+.scrollableContainer_d0696b {
+    border-radius: 0px;
 }
 
 .chatContent_a7d72e {
@@ -3000,7 +2994,7 @@
 }
 
 .container_cc72c1 {
-    color: var(--mainColor) !important;
+    color: #fff !important;
 }
 
 .container_a6d69a {
@@ -3288,21 +3282,25 @@ button.button_f67531>.contents_dd4f85>svg>path[fill*="var(--interactive-normal)"
 }
 
 .header_b56bbc {
-	background-color: var(--backgroundColor01);
+    background-color: var(--backgroundColor01);
 }
 
 .inner_c18ec9 {
-	background-color: var(--backgroundColor02);
+    background-color: var(--backgroundColor02);
 }
 
 .secondary_e258f5 {
-	background-color: var(--backgroundColor02);
+    background-color: var(--backgroundColor02);
 }
 
 .container_f8a938 {
-	background-color: var(--backgroundColor01);
+    background-color: var(--backgroundColor01);
 }
 
 .credentialList_eaef52 {
-	background-color: var(--backgroundColor01);
+    background-color: var(--backgroundColor01);
+}
+
+.embed_ad0b71 {
+    border-radius: 0px;
 }
